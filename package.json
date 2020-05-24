@@ -1,5 +1,5 @@
 {
-  "name": "parkbnb",
+  "name": "mellow",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,11 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "styled-components": "^5.0.1"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:3001"
+    }
   },
   "husky": {
     "hooks": {
