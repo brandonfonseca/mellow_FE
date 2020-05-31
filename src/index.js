@@ -1,20 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { StyledApp } from './App.styles'
 import * as serviceWorker from './serviceWorker'
 import { createGlobalStyle } from 'styled-components'
+import App from './App'
+
 
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: #f6f7ff;
     margin: 0px;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: SourceSansPro;
   }
 `
 
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <StyledApp />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )

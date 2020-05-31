@@ -4,6 +4,7 @@ export const StyledBar = styled.div`
     width: 196px;
     height: 1611px;
     background-color: #ffffff;
+    float: left;
 `
 
 export const TitleText = styled.div`
