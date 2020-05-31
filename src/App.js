@@ -1,8 +1,8 @@
 import React from 'react'
-import Message from './CommonComponents/Message'
+import Sidebar from './Sidebar'
 
 const App = () => {
-  return <Message msg="Hello World!"/>
+  return <Sidebar/>
 }
 
 export default App
