@@ -1,10 +1,14 @@
 import React from 'react'
 import Sidebar from './Sidebar'
-import CheckInCard from './CommonComponents/CheckInCard'
-import moodIcon from './Logos/CardHeaderLogos/mood.svg'
+import DailyCheckIn from './DailyCheckIn'
 
 const App = () => {
-  return (<><Sidebar/><CheckInCard title={'MOOD'} prompt={'How was your overall mood today?'} logo={moodIcon}/></>)
+  return (
+    <>
+      <Sidebar/>
+      <DailyCheckIn/>
+    </>
+  )
 }
 
 export default App

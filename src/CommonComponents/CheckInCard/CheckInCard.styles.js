@@ -17,6 +17,7 @@ export const Title = styled.div`
     position: absolute;
     top: 15px;
     left: 20px;
+    text-align: center;
 `
 
 export const Prompt = styled.div`
@@ -24,9 +25,10 @@ export const Prompt = styled.div`
     color: #1c4657;
     position: absolute;
     top: 67px;
-    right: 207px;
+    right: 0;
     bottom: 143px;
-    left: 208px;
+    left: 0;
+    text-align: center;
 `
 
 export const Logo = styled.img`
@@ -34,4 +36,14 @@ export const Logo = styled.img`
     z-index: 5;
     top: 20px;
     right: 20px;
+`
+
+export const OptionsWrapper = styled.div`
+    display: flex;
+    position: absolute;
+    top: 117px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+
 `

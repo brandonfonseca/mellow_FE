@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxjAm jcQrVp"
+        class="sc-AxjAm bRnNul"
       >
         <div
           class="sc-AxirZ bzlyMV"
@@ -65,11 +65,576 @@ Object {
           </div>
         </div>
       </div>
+      <div
+        class="sc-fznyAO hntdVo"
+      >
+        <div
+          class="sc-AxheI bmmqHj"
+        >
+          <div
+            class="sc-Axmtr kEnBRd"
+          >
+            MOOD
+          </div>
+          <div
+            class="sc-AxmLO iJSTlm"
+          >
+            How was your overall mood today?
+          </div>
+          <img
+            class="sc-fzozJi nVnBL"
+            src="mood.svg"
+          />
+          <div
+            class="sc-fzoLsD eMKETj"
+          >
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="very-sad.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                Very Sad
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sad.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                Sad
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="meh.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                Meh
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="happy.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                Happy
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="very-happy.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                Very Happy
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxheI bmmqHj"
+        >
+          <div
+            class="sc-Axmtr kEnBRd"
+          >
+            WATER
+          </div>
+          <div
+            class="sc-AxmLO iJSTlm"
+          >
+            How many cups of water did you drink today?
+          </div>
+          <img
+            class="sc-fzozJi nVnBL"
+            src="water.svg"
+          />
+          <div
+            class="sc-fzoLsD eMKETj"
+          >
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water0.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water1.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                1
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water2.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                2
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water3.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                3
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water4.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                4
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water5.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                5
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water6.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                6
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water7.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                7
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="water8.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                8
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxheI bmmqHj"
+        >
+          <div
+            class="sc-Axmtr kEnBRd"
+          >
+            NUTRITION
+          </div>
+          <div
+            class="sc-AxmLO iJSTlm"
+          >
+            How would you rate the nutritional value of your food today?
+          </div>
+          <img
+            class="sc-fzozJi nVnBL"
+            src="apple.svg"
+          />
+          <div
+            class="sc-fzoLsD eMKETj"
+          >
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="apple1.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                1
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="apple2.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                2
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="apple3.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                3
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="apple4.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                4
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="apple5.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                5
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxheI bmmqHj"
+        >
+          <div
+            class="sc-Axmtr kEnBRd"
+          >
+            ACTIVITY
+          </div>
+          <div
+            class="sc-AxmLO iJSTlm"
+          >
+            How active were you today?
+          </div>
+          <img
+            class="sc-fzozJi nVnBL"
+            src="apple.svg"
+          />
+          <div
+            class="sc-fzoLsD eMKETj"
+          >
+            <div
+              class="sc-fzpans iunwnT"
+            >
+              <img
+                alt=""
+                src="activity-low.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                Low Activity
+              </div>
+            </div>
+            <div
+              class="sc-fzpans iunwnT"
+            >
+              <img
+                alt=""
+                src="activity-medium.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                Medium Activity
+              </div>
+            </div>
+            <div
+              class="sc-fzpans iunwnT"
+            >
+              <img
+                alt=""
+                src="activity-high.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                High Activity
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxheI bmmqHj"
+        >
+          <div
+            class="sc-Axmtr kEnBRd"
+          >
+            SLEEP
+          </div>
+          <div
+            class="sc-AxmLO iJSTlm"
+          >
+            How many hours of sleep did you get last night?
+          </div>
+          <img
+            class="sc-fzozJi nVnBL"
+            src="apple.svg"
+          />
+          <div
+            class="sc-fzoLsD eMKETj"
+          >
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep0.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep1.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                1
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep2.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                2
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep3.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                3
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep4.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                4
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep5.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                5
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep6.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                6
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep7.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                7
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="sleep8.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                8
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxheI bmmqHj"
+        >
+          <div
+            class="sc-Axmtr kEnBRd"
+          >
+            MEDITATE
+          </div>
+          <div
+            class="sc-AxmLO iJSTlm"
+          >
+            Did you meditate today?
+          </div>
+          <img
+            class="sc-fzozJi nVnBL"
+            src="apple.svg"
+          />
+          <div
+            class="sc-fzoLsD eMKETj"
+          >
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="thumbDown.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                No
+              </div>
+            </div>
+            <div
+              class="sc-fzpans elNLHT"
+            >
+              <img
+                alt=""
+                src="thumbUp.svg"
+              />
+              <div
+                class="sc-fzplWN bbnFZo"
+              >
+                Yes
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-AxjAm jcQrVp"
+      class="sc-AxjAm bRnNul"
     >
       <div
         class="sc-AxirZ bzlyMV"
@@ -125,6 +690,571 @@ Object {
           class="sc-AxhCb iYgXkR"
         >
           Mindfulness Tools
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-fznyAO hntdVo"
+    >
+      <div
+        class="sc-AxheI bmmqHj"
+      >
+        <div
+          class="sc-Axmtr kEnBRd"
+        >
+          MOOD
+        </div>
+        <div
+          class="sc-AxmLO iJSTlm"
+        >
+          How was your overall mood today?
+        </div>
+        <img
+          class="sc-fzozJi nVnBL"
+          src="mood.svg"
+        />
+        <div
+          class="sc-fzoLsD eMKETj"
+        >
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="very-sad.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              Very Sad
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sad.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              Sad
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="meh.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              Meh
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="happy.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              Happy
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="very-happy.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              Very Happy
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxheI bmmqHj"
+      >
+        <div
+          class="sc-Axmtr kEnBRd"
+        >
+          WATER
+        </div>
+        <div
+          class="sc-AxmLO iJSTlm"
+        >
+          How many cups of water did you drink today?
+        </div>
+        <img
+          class="sc-fzozJi nVnBL"
+          src="water.svg"
+        />
+        <div
+          class="sc-fzoLsD eMKETj"
+        >
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water0.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water1.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              1
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water2.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              2
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water3.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              3
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water4.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              4
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water5.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              5
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water6.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              6
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water7.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              7
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="water8.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              8
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxheI bmmqHj"
+      >
+        <div
+          class="sc-Axmtr kEnBRd"
+        >
+          NUTRITION
+        </div>
+        <div
+          class="sc-AxmLO iJSTlm"
+        >
+          How would you rate the nutritional value of your food today?
+        </div>
+        <img
+          class="sc-fzozJi nVnBL"
+          src="apple.svg"
+        />
+        <div
+          class="sc-fzoLsD eMKETj"
+        >
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="apple1.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              1
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="apple2.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              2
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="apple3.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              3
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="apple4.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              4
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="apple5.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              5
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxheI bmmqHj"
+      >
+        <div
+          class="sc-Axmtr kEnBRd"
+        >
+          ACTIVITY
+        </div>
+        <div
+          class="sc-AxmLO iJSTlm"
+        >
+          How active were you today?
+        </div>
+        <img
+          class="sc-fzozJi nVnBL"
+          src="apple.svg"
+        />
+        <div
+          class="sc-fzoLsD eMKETj"
+        >
+          <div
+            class="sc-fzpans iunwnT"
+          >
+            <img
+              alt=""
+              src="activity-low.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              Low Activity
+            </div>
+          </div>
+          <div
+            class="sc-fzpans iunwnT"
+          >
+            <img
+              alt=""
+              src="activity-medium.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              Medium Activity
+            </div>
+          </div>
+          <div
+            class="sc-fzpans iunwnT"
+          >
+            <img
+              alt=""
+              src="activity-high.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              High Activity
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxheI bmmqHj"
+      >
+        <div
+          class="sc-Axmtr kEnBRd"
+        >
+          SLEEP
+        </div>
+        <div
+          class="sc-AxmLO iJSTlm"
+        >
+          How many hours of sleep did you get last night?
+        </div>
+        <img
+          class="sc-fzozJi nVnBL"
+          src="apple.svg"
+        />
+        <div
+          class="sc-fzoLsD eMKETj"
+        >
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep0.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep1.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              1
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep2.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              2
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep3.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              3
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep4.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              4
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep5.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              5
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep6.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              6
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep7.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              7
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="sleep8.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              8
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxheI bmmqHj"
+      >
+        <div
+          class="sc-Axmtr kEnBRd"
+        >
+          MEDITATE
+        </div>
+        <div
+          class="sc-AxmLO iJSTlm"
+        >
+          Did you meditate today?
+        </div>
+        <img
+          class="sc-fzozJi nVnBL"
+          src="apple.svg"
+        />
+        <div
+          class="sc-fzoLsD eMKETj"
+        >
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="thumbDown.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              No
+            </div>
+          </div>
+          <div
+            class="sc-fzpans elNLHT"
+          >
+            <img
+              alt=""
+              src="thumbUp.svg"
+            />
+            <div
+              class="sc-fzplWN bbnFZo"
+            >
+              Yes
+            </div>
+          </div>
         </div>
       </div>
     </div>
