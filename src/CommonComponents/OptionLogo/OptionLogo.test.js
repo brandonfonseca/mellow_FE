@@ -1,11 +1,9 @@
 import React from 'react'
-import Immutable from 'immutable'
 import OptionLogo from '.'
 import { render } from '@testing-library/react'
-import { mount, shallow } from 'enzyme'
+import { shallow } from 'enzyme'
 import { thumbUp } from '../../Logos'
 import { OptionLogoWrapper, OptionText } from './OptionLogo.styles'
-
 
 describe('OptionLogo', () => {
   it('renders the option logo correctly', () => {
