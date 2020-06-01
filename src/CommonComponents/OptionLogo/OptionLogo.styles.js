@@ -9,6 +9,7 @@ export const OptionLogoWrapper = styled.div`
     margin-left: ${({ extraSpacing }) => extraSpacing ? '25px' : '10px'};
     margin-right: ${({ extraSpacing }) => extraSpacing ? '25px' : '10px'};
     align-items: center;
+    cursor: pointer;
 `
 
 export const OptionText = styled.div`

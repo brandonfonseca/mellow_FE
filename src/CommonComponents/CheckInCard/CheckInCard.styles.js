@@ -7,7 +7,9 @@ export const Card = styled.div`
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     background-color: #ffffff;
     float: left;
-    margin: 65px 0 0 61px;
+    top: 65px;
+    left: 61px;
+    margin-bottom: 20px;
     position: relative;
 `
 export const Title = styled.div`

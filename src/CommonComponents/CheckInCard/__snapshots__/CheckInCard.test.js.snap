@@ -1,31 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TabTitle renders the tab title component correctly 1`] = `
+exports[`CheckInCard renders the check in card correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxjAm cyDXgD"
+        class="sc-AxjAm jLVhHd"
       >
         <div
-          class="sc-AxhCb jcKqoZ"
+          class="sc-AxirZ kLCRzb"
+        >
+          title
+        </div>
+        <div
+          class="sc-AxiKw gfdoYB"
+        >
+          prompt
+        </div>
+        <img
+          class="sc-AxhCb jOIycJ"
         />
         <div
-          class="sc-AxirZ jfwOMZ"
+          class="sc-AxhUy knSSze"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-AxjAm cyDXgD"
+      class="sc-AxjAm jLVhHd"
     >
       <div
-        class="sc-AxhCb jcKqoZ"
+        class="sc-AxirZ kLCRzb"
+      >
+        title
+      </div>
+      <div
+        class="sc-AxiKw gfdoYB"
+      >
+        prompt
+      </div>
+      <img
+        class="sc-AxhCb jOIycJ"
       />
       <div
-        class="sc-AxirZ jfwOMZ"
+        class="sc-AxhUy knSSze"
       />
     </div>
   </div>,

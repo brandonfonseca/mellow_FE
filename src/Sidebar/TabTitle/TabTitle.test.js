@@ -9,7 +9,7 @@ import { ReactComponent as LeafLogo } from '../../Logos/SidebarLogos/leafLogo.sv
 import { DAILY_CHECK_IN, DASHBOARD, MINDFULNESS_TOOLS } from '../constants'
 
 describe('TabTitle', () => {
-  it('renders the side bar', () => {
+  it('renders the tab title component correctly', () => {
     const wrapper = render(<TabTitle/>)
     expect(wrapper).toMatchSnapshot()
   })

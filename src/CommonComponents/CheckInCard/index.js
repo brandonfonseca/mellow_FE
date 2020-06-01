@@ -11,7 +11,7 @@ const CheckInCard = ({ title, prompt, logo, options, extraSpacing }) => {
       <Prompt>{prompt}</Prompt>
       <Logo src={logo}/>
       <OptionsWrapper>
-        {options.entrySeq().map(([option, logo]) => <OptionLogo key={option} logo={logo} option={option} extraSpacing={extraSpacing}/>)}
+        {options.entrySeq().map(([option, logo]) => <OptionLogo key={option} logo={logo} option={option} extraSpacing={extraSpacing} onClick={() => alert('hey')}/>)}
       </OptionsWrapper>
     </Card>
   )
@@ -26,6 +26,7 @@ CheckInCard.propTypes = {
 }
 
 CheckInCard.defaultProps = {
-  extraSpacing: false
+  extraSpacing: false,
+  options: new Immutable.Map()
 }
 export default CheckInCard

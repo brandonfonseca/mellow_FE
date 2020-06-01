@@ -1,154 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders the base app 1`] = `
+exports[`Daily Check-in tab renders the daily check-in items 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxjAm bRnNul"
+        class="sc-Axmtr kExLnP"
       >
         <div
-          class="sc-AxirZ bzlyMV"
-        >
-          mellow
-        </div>
-        <div
-          class="sc-AxiKw bttohh"
+          class="sc-AxjAm jLVhHd"
         >
           <div
-            class="sc-AxgMl WzAmu"
-          >
-            <svg>
-              calendarLogo.svg
-            </svg>
-          </div>
-          <div
-            class="sc-AxhCb iYgXkR"
-          >
-            Daily Check-in
-          </div>
-          <div
-            class="sc-AxhUy idTUKW"
-          />
-        </div>
-        <div
-          class="sc-AxiKw iayXtk"
-        >
-          <div
-            class="sc-AxgMl WzAmu"
-          >
-            <svg>
-              graphLogo.svg
-            </svg>
-          </div>
-          <div
-            class="sc-AxhCb iYgXkR"
-          >
-            Dashboard
-          </div>
-        </div>
-        <div
-          class="sc-AxiKw iayXtk"
-        >
-          <div
-            class="sc-AxgMl WzAmu"
-          >
-            <svg>
-              leafLogo.svg
-            </svg>
-          </div>
-          <div
-            class="sc-AxhCb iYgXkR"
-          >
-            Mindfulness Tools
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-fznyAO hntdVo"
-      >
-        <div
-          class="sc-AxheI enOaKv"
-        >
-          <div
-            class="sc-Axmtr kEnBRd"
+            class="sc-AxirZ kLCRzb"
           >
             MOOD
           </div>
           <div
-            class="sc-AxmLO iJSTlm"
+            class="sc-AxiKw gfdoYB"
           >
             How was your overall mood today?
           </div>
           <img
-            class="sc-fzozJi nVnBL"
+            class="sc-AxhCb jOIycJ"
             src="mood.svg"
           />
           <div
-            class="sc-fzoLsD eMKETj"
+            class="sc-AxhUy knSSze"
           >
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="very-sad.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 Very Sad
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sad.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 Sad
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="meh.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 Meh
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="happy.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 Happy
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="very-happy.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 Very Happy
               </div>
@@ -156,138 +96,138 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AxheI enOaKv"
+          class="sc-AxjAm jLVhHd"
         >
           <div
-            class="sc-Axmtr kEnBRd"
+            class="sc-AxirZ kLCRzb"
           >
             WATER
           </div>
           <div
-            class="sc-AxmLO iJSTlm"
+            class="sc-AxiKw gfdoYB"
           >
             How many cups of water did you drink today?
           </div>
           <img
-            class="sc-fzozJi nVnBL"
+            class="sc-AxhCb jOIycJ"
             src="water.svg"
           />
           <div
-            class="sc-fzoLsD eMKETj"
+            class="sc-AxhUy knSSze"
           >
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water0.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water1.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 1
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water2.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 2
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water3.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 3
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water4.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 4
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water5.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 5
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water6.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 6
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water7.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 7
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="water8.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 8
               </div>
@@ -295,86 +235,86 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AxheI enOaKv"
+          class="sc-AxjAm jLVhHd"
         >
           <div
-            class="sc-Axmtr kEnBRd"
+            class="sc-AxirZ kLCRzb"
           >
             NUTRITION
           </div>
           <div
-            class="sc-AxmLO iJSTlm"
+            class="sc-AxiKw gfdoYB"
           >
             How would you rate the nutritional value of your food today?
           </div>
           <img
-            class="sc-fzozJi nVnBL"
+            class="sc-AxhCb jOIycJ"
             src="apple.svg"
           />
           <div
-            class="sc-fzoLsD eMKETj"
+            class="sc-AxhUy knSSze"
           >
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="apple1.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 1
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="apple2.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 2
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="apple3.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 3
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="apple4.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 4
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="apple5.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 5
               </div>
@@ -382,60 +322,60 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AxheI enOaKv"
+          class="sc-AxjAm jLVhHd"
         >
           <div
-            class="sc-Axmtr kEnBRd"
+            class="sc-AxirZ kLCRzb"
           >
             ACTIVITY
           </div>
           <div
-            class="sc-AxmLO iJSTlm"
+            class="sc-AxiKw gfdoYB"
           >
             How active were you today?
           </div>
           <img
-            class="sc-fzozJi nVnBL"
+            class="sc-AxhCb jOIycJ"
             src="apple.svg"
           />
           <div
-            class="sc-fzoLsD eMKETj"
+            class="sc-AxhUy knSSze"
           >
             <div
-              class="sc-fzpans htICkd"
+              class="sc-AxgMl fuoSmu"
             >
               <img
                 alt=""
                 src="activity-low.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 Low Activity
               </div>
             </div>
             <div
-              class="sc-fzpans htICkd"
+              class="sc-AxgMl fuoSmu"
             >
               <img
                 alt=""
                 src="activity-medium.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 Medium Activity
               </div>
             </div>
             <div
-              class="sc-fzpans htICkd"
+              class="sc-AxgMl fuoSmu"
             >
               <img
                 alt=""
                 src="activity-high.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 High Activity
               </div>
@@ -443,138 +383,138 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AxheI enOaKv"
+          class="sc-AxjAm jLVhHd"
         >
           <div
-            class="sc-Axmtr kEnBRd"
+            class="sc-AxirZ kLCRzb"
           >
             SLEEP
           </div>
           <div
-            class="sc-AxmLO iJSTlm"
+            class="sc-AxiKw gfdoYB"
           >
             How many hours of sleep did you get last night?
           </div>
           <img
-            class="sc-fzozJi nVnBL"
+            class="sc-AxhCb jOIycJ"
             src="apple.svg"
           />
           <div
-            class="sc-fzoLsD eMKETj"
+            class="sc-AxhUy knSSze"
           >
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep0.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 0
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep1.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 1
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep2.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 2
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep3.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 3
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep4.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 4
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep5.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 5
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep6.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 6
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep7.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 7
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="sleep8.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 8
               </div>
@@ -582,47 +522,47 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AxheI enOaKv"
+          class="sc-AxjAm jLVhHd"
         >
           <div
-            class="sc-Axmtr kEnBRd"
+            class="sc-AxirZ kLCRzb"
           >
             MEDITATE
           </div>
           <div
-            class="sc-AxmLO iJSTlm"
+            class="sc-AxiKw gfdoYB"
           >
             Did you meditate today?
           </div>
           <img
-            class="sc-fzozJi nVnBL"
+            class="sc-AxhCb jOIycJ"
             src="apple.svg"
           />
           <div
-            class="sc-fzoLsD eMKETj"
+            class="sc-AxhUy knSSze"
           >
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="thumbDown.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 No
               </div>
             </div>
             <div
-              class="sc-fzpans iWIbbh"
+              class="sc-AxgMl egSYJi"
             >
               <img
                 alt=""
                 src="thumbUp.svg"
               />
               <div
-                class="sc-fzplWN bbnFZo"
+                class="sc-AxheI cZAbpI"
               >
                 Yes
               </div>
@@ -634,149 +574,89 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AxjAm bRnNul"
+      class="sc-Axmtr kExLnP"
     >
       <div
-        class="sc-AxirZ bzlyMV"
-      >
-        mellow
-      </div>
-      <div
-        class="sc-AxiKw bttohh"
+        class="sc-AxjAm jLVhHd"
       >
         <div
-          class="sc-AxgMl WzAmu"
-        >
-          <svg>
-            calendarLogo.svg
-          </svg>
-        </div>
-        <div
-          class="sc-AxhCb iYgXkR"
-        >
-          Daily Check-in
-        </div>
-        <div
-          class="sc-AxhUy idTUKW"
-        />
-      </div>
-      <div
-        class="sc-AxiKw iayXtk"
-      >
-        <div
-          class="sc-AxgMl WzAmu"
-        >
-          <svg>
-            graphLogo.svg
-          </svg>
-        </div>
-        <div
-          class="sc-AxhCb iYgXkR"
-        >
-          Dashboard
-        </div>
-      </div>
-      <div
-        class="sc-AxiKw iayXtk"
-      >
-        <div
-          class="sc-AxgMl WzAmu"
-        >
-          <svg>
-            leafLogo.svg
-          </svg>
-        </div>
-        <div
-          class="sc-AxhCb iYgXkR"
-        >
-          Mindfulness Tools
-        </div>
-      </div>
-    </div>
-    <div
-      class="sc-fznyAO hntdVo"
-    >
-      <div
-        class="sc-AxheI enOaKv"
-      >
-        <div
-          class="sc-Axmtr kEnBRd"
+          class="sc-AxirZ kLCRzb"
         >
           MOOD
         </div>
         <div
-          class="sc-AxmLO iJSTlm"
+          class="sc-AxiKw gfdoYB"
         >
           How was your overall mood today?
         </div>
         <img
-          class="sc-fzozJi nVnBL"
+          class="sc-AxhCb jOIycJ"
           src="mood.svg"
         />
         <div
-          class="sc-fzoLsD eMKETj"
+          class="sc-AxhUy knSSze"
         >
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="very-sad.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               Very Sad
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sad.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               Sad
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="meh.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               Meh
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="happy.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               Happy
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="very-happy.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               Very Happy
             </div>
@@ -784,138 +664,138 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AxheI enOaKv"
+        class="sc-AxjAm jLVhHd"
       >
         <div
-          class="sc-Axmtr kEnBRd"
+          class="sc-AxirZ kLCRzb"
         >
           WATER
         </div>
         <div
-          class="sc-AxmLO iJSTlm"
+          class="sc-AxiKw gfdoYB"
         >
           How many cups of water did you drink today?
         </div>
         <img
-          class="sc-fzozJi nVnBL"
+          class="sc-AxhCb jOIycJ"
           src="water.svg"
         />
         <div
-          class="sc-fzoLsD eMKETj"
+          class="sc-AxhUy knSSze"
         >
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water0.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               0
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water1.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               1
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water2.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               2
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water3.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               3
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water4.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               4
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water5.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               5
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water6.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               6
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water7.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               7
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="water8.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               8
             </div>
@@ -923,86 +803,86 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AxheI enOaKv"
+        class="sc-AxjAm jLVhHd"
       >
         <div
-          class="sc-Axmtr kEnBRd"
+          class="sc-AxirZ kLCRzb"
         >
           NUTRITION
         </div>
         <div
-          class="sc-AxmLO iJSTlm"
+          class="sc-AxiKw gfdoYB"
         >
           How would you rate the nutritional value of your food today?
         </div>
         <img
-          class="sc-fzozJi nVnBL"
+          class="sc-AxhCb jOIycJ"
           src="apple.svg"
         />
         <div
-          class="sc-fzoLsD eMKETj"
+          class="sc-AxhUy knSSze"
         >
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="apple1.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               1
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="apple2.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               2
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="apple3.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               3
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="apple4.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               4
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="apple5.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               5
             </div>
@@ -1010,60 +890,60 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AxheI enOaKv"
+        class="sc-AxjAm jLVhHd"
       >
         <div
-          class="sc-Axmtr kEnBRd"
+          class="sc-AxirZ kLCRzb"
         >
           ACTIVITY
         </div>
         <div
-          class="sc-AxmLO iJSTlm"
+          class="sc-AxiKw gfdoYB"
         >
           How active were you today?
         </div>
         <img
-          class="sc-fzozJi nVnBL"
+          class="sc-AxhCb jOIycJ"
           src="apple.svg"
         />
         <div
-          class="sc-fzoLsD eMKETj"
+          class="sc-AxhUy knSSze"
         >
           <div
-            class="sc-fzpans htICkd"
+            class="sc-AxgMl fuoSmu"
           >
             <img
               alt=""
               src="activity-low.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               Low Activity
             </div>
           </div>
           <div
-            class="sc-fzpans htICkd"
+            class="sc-AxgMl fuoSmu"
           >
             <img
               alt=""
               src="activity-medium.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               Medium Activity
             </div>
           </div>
           <div
-            class="sc-fzpans htICkd"
+            class="sc-AxgMl fuoSmu"
           >
             <img
               alt=""
               src="activity-high.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               High Activity
             </div>
@@ -1071,138 +951,138 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AxheI enOaKv"
+        class="sc-AxjAm jLVhHd"
       >
         <div
-          class="sc-Axmtr kEnBRd"
+          class="sc-AxirZ kLCRzb"
         >
           SLEEP
         </div>
         <div
-          class="sc-AxmLO iJSTlm"
+          class="sc-AxiKw gfdoYB"
         >
           How many hours of sleep did you get last night?
         </div>
         <img
-          class="sc-fzozJi nVnBL"
+          class="sc-AxhCb jOIycJ"
           src="apple.svg"
         />
         <div
-          class="sc-fzoLsD eMKETj"
+          class="sc-AxhUy knSSze"
         >
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep0.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               0
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep1.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               1
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep2.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               2
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep3.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               3
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep4.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               4
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep5.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               5
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep6.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               6
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep7.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               7
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="sleep8.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               8
             </div>
@@ -1210,47 +1090,47 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AxheI enOaKv"
+        class="sc-AxjAm jLVhHd"
       >
         <div
-          class="sc-Axmtr kEnBRd"
+          class="sc-AxirZ kLCRzb"
         >
           MEDITATE
         </div>
         <div
-          class="sc-AxmLO iJSTlm"
+          class="sc-AxiKw gfdoYB"
         >
           Did you meditate today?
         </div>
         <img
-          class="sc-fzozJi nVnBL"
+          class="sc-AxhCb jOIycJ"
           src="apple.svg"
         />
         <div
-          class="sc-fzoLsD eMKETj"
+          class="sc-AxhUy knSSze"
         >
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="thumbDown.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               No
             </div>
           </div>
           <div
-            class="sc-fzpans iWIbbh"
+            class="sc-AxgMl egSYJi"
           >
             <img
               alt=""
               src="thumbUp.svg"
             />
             <div
-              class="sc-fzplWN bbnFZo"
+              class="sc-AxheI cZAbpI"
             >
               Yes
             </div>
