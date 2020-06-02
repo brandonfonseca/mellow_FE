@@ -14,7 +14,7 @@ export const Card = styled.div`
 `
 export const Title = styled.div`
     font-size: 18px;
-    font-weight: 550;
+    font-weight: 600;
     color: #2d4554;
     position: absolute;
     top: 20px;
