@@ -4,7 +4,6 @@ export const StyledTabTitle = styled.div`
     margin: 33px 0 0 20px;
     width: 176px;
     height: 32px;
-    font-family: SourceSansPro;
     font-size: 14px;
     font-weight: ${({ isSelected }) => isSelected ? '600' : 'normal'};
     color: #2d4554;

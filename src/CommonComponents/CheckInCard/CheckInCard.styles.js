@@ -14,10 +14,10 @@ export const Card = styled.div`
 `
 export const Title = styled.div`
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 550;
     color: #2d4554;
     position: absolute;
-    top: 15px;
+    top: 20px;
     left: 20px;
     text-align: center;
 `

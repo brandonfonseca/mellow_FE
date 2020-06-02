@@ -6,7 +6,7 @@ import Immutable from 'immutable'
 import { connect } from 'react-redux'
 import { setOption } from '../../ducks/dailyCheckIn/actions'
 
-export const UnconnectedCheckInCard = ({ title, prompt, logo, options, extraSpacing, choices, setOption }) => {
+export const UnconnectedCheckInCard = ({ title, prompt, logo, options, extraSpacing, setOption }) => {
   return (
     <Card>
       <Title>{title.toUpperCase()}</Title>
@@ -27,7 +27,8 @@ UnconnectedCheckInCard.propTypes = {
   prompt: PropTypes.string,
   logo: PropTypes.string,
   options: PropTypes.instanceOf(Immutable.Map),
-  extraSpacing: PropTypes.bool
+  extraSpacing: PropTypes.bool,
+  setOption: PropTypes.func
 }
 
 UnconnectedCheckInCard.defaultProps = {
@@ -37,10 +38,4 @@ UnconnectedCheckInCard.defaultProps = {
   options: new Immutable.Map()
 }
 
-const mapStateToProps = state => {
-  return {
-    choices: state
-  }
-}
-
-export default connect(mapStateToProps, { setOption })(UnconnectedCheckInCard)
+export default connect(null, { setOption })(UnconnectedCheckInCard)

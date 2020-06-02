@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #f6f7ff;
     margin: 0px;
     -webkit-font-smoothing: antialiased !important;
-    font-family: SourceSansPro;
+    font-family: sans-serif;
   }
 `
 

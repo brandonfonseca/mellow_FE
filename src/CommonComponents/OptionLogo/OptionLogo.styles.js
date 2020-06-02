@@ -13,7 +13,6 @@ export const OptionLogoWrapper = styled.div`
 `
 
 export const OptionText = styled.div`
-    font-family: SourceSansPro;
     font-size: 14px;
     color: #1c4657;
     height: 18px;
