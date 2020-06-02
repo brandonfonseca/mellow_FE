@@ -1,6 +1,6 @@
 import React from 'react'
 import Immutable from 'immutable'
-import CheckInCard from '.'
+import { UnconnectedCheckInCard as CheckInCard } from '.'
 import { render } from '@testing-library/react'
 import { mount, shallow } from 'enzyme'
 import appleLogo from '../../Logos/CardHeaderLogos/apple.svg'
@@ -17,7 +17,7 @@ describe('CheckInCard', () => {
     const mockTitle = 'mock title'
     const wrapper = shallow(<CheckInCard title={mockTitle}/>)
     expect(wrapper.find(Title).exists()).toBe(true)
-    expect(wrapper.find(Title).text()).toBe(mockTitle)
+    expect(wrapper.find(Title).text()).toBe(mockTitle.toUpperCase())
   })
 
   it('renders the prompt that is passed in props', () => {
@@ -33,7 +33,7 @@ describe('CheckInCard', () => {
   })
 
   it('renders the correct number of options given an options map', () => {
-    const mockOptions = Immutable.fromJS({ label1: appleLogo, label2: appleLogo })
+    const mockOptions = Immutable.fromJS({ label1: [appleLogo, 'appleLogo'], label2: [appleLogo, 'appleLogo2'] })
     const wrapper = mount(<CheckInCard options={mockOptions}/>)
     expect(wrapper.find(OptionLogo).exists()).toBe(true)
     expect(wrapper.find(OptionLogo).length).toEqual(2)

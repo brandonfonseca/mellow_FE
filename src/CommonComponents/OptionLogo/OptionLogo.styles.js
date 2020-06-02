@@ -20,4 +20,6 @@ export const OptionText = styled.div`
     white-space: nowrap;
     margin-top: 15px;
     text-align: center;
+    position: absolute;
+    top: 35px;
 `
