@@ -6,14 +6,14 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxjAm fdYEFy"
+        class="sc-AxjAm hVClxr"
       >
         <img
           alt=""
           src="thumbUp.svg"
         />
         <div
-          class="sc-AxirZ cnmQsK"
+          class="sc-AxiKw fNtxHB"
         >
           Yes
         </div>
@@ -22,14 +22,14 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AxjAm fdYEFy"
+      class="sc-AxjAm hVClxr"
     >
       <img
         alt=""
         src="thumbUp.svg"
       />
       <div
-        class="sc-AxirZ cnmQsK"
+        class="sc-AxiKw fNtxHB"
       >
         Yes
       </div>

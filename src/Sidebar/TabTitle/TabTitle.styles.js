@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
-export const StyledTabTitle = styled.div`
+export const TabTitleWrapper = styled.div`
     margin: 33px 0 0 20px;
     width: 176px;
     height: 32px;
     font-size: 14px;
     font-weight: ${({ isSelected }) => isSelected ? '600' : 'normal'};
     color: #2d4554;
+    cursor: pointer;
 `
 
 export const Title = styled.div`

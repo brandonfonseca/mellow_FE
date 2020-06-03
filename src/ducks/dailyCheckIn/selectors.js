@@ -1,0 +1,1 @@
+export const currentSelectionSelector = state => state.get('currentSelections')

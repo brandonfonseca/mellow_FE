@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StyledTabTitle, Logo, SelectedBar, Title } from './TabTitle.styles'
+import { TabTitleWrapper, Logo, SelectedBar, Title } from './TabTitle.styles'
 import { DAILY_CHECK_IN, DASHBOARD, MINDFULNESS_TOOLS } from '../constants'
 import { ReactComponent as CalendarLogo } from '../../Logos/SidebarLogos/calendarLogo.svg'
 import { ReactComponent as GraphLogo } from '../../Logos/SidebarLogos/graphLogo.svg'
@@ -19,11 +19,11 @@ const SelectLogo = ({ title }) => {
 }
 const TabTitle = ({ title, isSelected }) => {
   return (
-    <StyledTabTitle isSelected={isSelected}>
+    <TabTitleWrapper isSelected={isSelected}>
       <Logo>{SelectLogo({ title })}</Logo>
       <Title>{title}</Title>
       {isSelected ? <SelectedBar/> : null}
-    </StyledTabTitle>)
+    </TabTitleWrapper>)
 }
 
 TabTitle.propTypes = {

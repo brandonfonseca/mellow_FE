@@ -3,7 +3,7 @@ import OptionLogo from '.'
 import { render } from '@testing-library/react'
 import { shallow } from 'enzyme'
 import { thumbUp } from '../../Logos'
-import { OptionLogoWrapper, OptionText } from './OptionLogo.styles'
+import { OptionLogoWrapper, OptionText, SelectedWrapper } from './OptionLogo.styles'
 
 describe('OptionLogo', () => {
   it('renders the option logo correctly', () => {
@@ -29,5 +29,10 @@ describe('OptionLogo', () => {
     const wrapper = shallow(<OptionLogo logo={thumbUp} option={'Yes'} onClick={spy} />)
     wrapper.find(OptionLogoWrapper).simulate('click')
     expect(spy).toHaveBeenCalledTimes(1)
+  })
+
+  it('renders the selected wrapper if selected is true', () => {
+    const wrapper = shallow(<OptionLogo logo={thumbUp} selected={true}/>)
+    expect(wrapper.find(SelectedWrapper).exists()).toBe(true)
   })
 })

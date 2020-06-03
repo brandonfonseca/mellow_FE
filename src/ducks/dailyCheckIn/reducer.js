@@ -2,7 +2,7 @@ import { SET_CHOICE } from './actions'
 import Immutable from 'immutable'
 
 const initialState = Immutable.fromJS({
-  currentSelection: {
+  currentSelections: {
     mood: null,
     water: null,
     nutrition: null,
@@ -14,7 +14,7 @@ const initialState = Immutable.fromJS({
 export default function reducer (state = initialState, action = {}) {
   switch (action.type) {
     case SET_CHOICE:
-      return state.set(action.payload.type, action.payload.choice)
+      return state.setIn(['currentSelections', action.payload.type], action.payload.choice)
     default:
       return state
   }
