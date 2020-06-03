@@ -8,55 +8,11 @@ Object {
       <div>
         MockSidebar
       </div>
-      <div
-        class="sc-AxjAm kkZpKW"
-      >
-        <div>
-          MockCheckInCard
-        </div>
-        <div>
-          MockCheckInCard
-        </div>
-        <div>
-          MockCheckInCard
-        </div>
-        <div>
-          MockCheckInCard
-        </div>
-        <div>
-          MockCheckInCard
-        </div>
-        <div>
-          MockCheckInCard
-        </div>
-      </div>
     </div>
   </body>,
   "container": <div>
     <div>
       MockSidebar
-    </div>
-    <div
-      class="sc-AxjAm kkZpKW"
-    >
-      <div>
-        MockCheckInCard
-      </div>
-      <div>
-        MockCheckInCard
-      </div>
-      <div>
-        MockCheckInCard
-      </div>
-      <div>
-        MockCheckInCard
-      </div>
-      <div>
-        MockCheckInCard
-      </div>
-      <div>
-        MockCheckInCard
-      </div>
     </div>
   </div>,
   "debug": [Function],

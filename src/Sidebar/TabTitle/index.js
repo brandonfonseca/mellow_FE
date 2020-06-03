@@ -28,10 +28,12 @@ const TabTitle = ({ title, isSelected, onClick }) => {
 
 TabTitle.propTypes = {
   title: PropTypes.string.isRequired,
-  isSelected: PropTypes.bool.isRequired
+  isSelected: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired
 }
 TabTitle.defaultProps = {
   isSelected: false,
-  title: ''
+  title: '',
+  onClick: () => {}
 }
 export default TabTitle

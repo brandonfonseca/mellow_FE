@@ -3,9 +3,10 @@ import { SET_CURRENT_TAB } from './global/actions'
 import { currentSelections } from './dailyCheckIn/constants'
 import Immutable from 'immutable'
 import { currentTab } from './global/constants'
+import { DAILY_CHECK_IN } from '../Sidebar/constants'
 
 const initialState = Immutable.fromJS({
-  currentTab: '',
+  currentTab: DAILY_CHECK_IN,
   currentSelections: {
     mood: null,
     water: null,

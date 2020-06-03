@@ -11,9 +11,12 @@ export const UnconnectedSidebar = ({ setCurrentTab, currentTab }) => {
   return (
     <StyledBar>
       <TitleText>mellow</TitleText>
-      <TabTitle title={DAILY_CHECK_IN} isSelected={DAILY_CHECK_IN === currentTab || currentTab === '' } onClick={() => setCurrentTab(DAILY_CHECK_IN)}/>
-      <TabTitle title={DASHBOARD} isSelected={DASHBOARD === currentTab} onClick={() => setCurrentTab(DASHBOARD)}/>
-      <TabTitle title={MINDFULNESS_TOOLS} isSelected={MINDFULNESS_TOOLS === currentTab} onClick={() => setCurrentTab(MINDFULNESS_TOOLS)}/>
+      <TabTitle title={DAILY_CHECK_IN} isSelected={DAILY_CHECK_IN === currentTab ||
+        currentTab === '' } onClick={() => setCurrentTab(DAILY_CHECK_IN)}/>
+      <TabTitle title={DASHBOARD} isSelected={DASHBOARD === currentTab}
+        onClick={() => setCurrentTab(DASHBOARD)}/>
+      <TabTitle title={MINDFULNESS_TOOLS} isSelected={MINDFULNESS_TOOLS === currentTab}
+        onClick={() => setCurrentTab(MINDFULNESS_TOOLS)}/>
     </StyledBar>)
 }
 

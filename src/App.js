@@ -1,14 +1,28 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import DailyCheckIn from './DailyCheckIn'
+import { connect } from 'react-redux'
+import { currentTabSelector } from './ducks/global/selectors'
+import PropTypes from 'prop-types'
+import { DAILY_CHECK_IN } from './Sidebar/constants'
 
-const App = () => {
+export const UnconnectedApp = ({ currentTab }) => {
   return (
     <>
       <Sidebar/>
-      <DailyCheckIn/>
+      {currentTab === DAILY_CHECK_IN ? <DailyCheckIn/> : null}
     </>
   )
 }
 
-export default App
+const mapStateToProps = state => {
+  return {
+    currentTab: currentTabSelector(state)
+  }
+}
+
+UnconnectedApp.propTypes = {
+  currentTab: PropTypes.string
+}
+
+export default connect(mapStateToProps, {})(UnconnectedApp)
