@@ -1,0 +1,1 @@
+export const currentSelections = 'currentSelections'

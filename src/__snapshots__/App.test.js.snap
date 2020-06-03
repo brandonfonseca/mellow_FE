@@ -5,135 +5,59 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="sc-AxjAm bRnNul"
-      >
-        <div
-          class="sc-AxirZ bzlyMV"
-        >
-          mellow
-        </div>
-        <div
-          class="sc-AxiKw eCuIQn"
-        >
-          <div
-            class="sc-AxgMl WzAmu"
-          >
-            <svg>
-              calendarLogo.svg
-            </svg>
-          </div>
-          <div
-            class="sc-AxhCb iYgXkR"
-          >
-            Daily Check-in
-          </div>
-          <div
-            class="sc-AxhUy idTUKW"
-          />
-        </div>
-        <div
-          class="sc-AxiKw bpZzuq"
-        >
-          <div
-            class="sc-AxgMl WzAmu"
-          >
-            <svg>
-              graphLogo.svg
-            </svg>
-          </div>
-          <div
-            class="sc-AxhCb iYgXkR"
-          >
-            Dashboard
-          </div>
-        </div>
-        <div
-          class="sc-AxiKw bpZzuq"
-        >
-          <div
-            class="sc-AxgMl WzAmu"
-          >
-            <svg>
-              leafLogo.svg
-            </svg>
-          </div>
-          <div
-            class="sc-AxhCb iYgXkR"
-          >
-            Mindfulness Tools
-          </div>
-        </div>
+      <div>
+        MockSidebar
       </div>
       <div
-        class="sc-AxheI bEPVOI"
-      />
+        class="sc-AxjAm kkZpKW"
+      >
+        <div>
+          MockCheckInCard
+        </div>
+        <div>
+          MockCheckInCard
+        </div>
+        <div>
+          MockCheckInCard
+        </div>
+        <div>
+          MockCheckInCard
+        </div>
+        <div>
+          MockCheckInCard
+        </div>
+        <div>
+          MockCheckInCard
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="sc-AxjAm bRnNul"
-    >
-      <div
-        class="sc-AxirZ bzlyMV"
-      >
-        mellow
-      </div>
-      <div
-        class="sc-AxiKw eCuIQn"
-      >
-        <div
-          class="sc-AxgMl WzAmu"
-        >
-          <svg>
-            calendarLogo.svg
-          </svg>
-        </div>
-        <div
-          class="sc-AxhCb iYgXkR"
-        >
-          Daily Check-in
-        </div>
-        <div
-          class="sc-AxhUy idTUKW"
-        />
-      </div>
-      <div
-        class="sc-AxiKw bpZzuq"
-      >
-        <div
-          class="sc-AxgMl WzAmu"
-        >
-          <svg>
-            graphLogo.svg
-          </svg>
-        </div>
-        <div
-          class="sc-AxhCb iYgXkR"
-        >
-          Dashboard
-        </div>
-      </div>
-      <div
-        class="sc-AxiKw bpZzuq"
-      >
-        <div
-          class="sc-AxgMl WzAmu"
-        >
-          <svg>
-            leafLogo.svg
-          </svg>
-        </div>
-        <div
-          class="sc-AxhCb iYgXkR"
-        >
-          Mindfulness Tools
-        </div>
-      </div>
+    <div>
+      MockSidebar
     </div>
     <div
-      class="sc-AxheI bEPVOI"
-    />
+      class="sc-AxjAm kkZpKW"
+    >
+      <div>
+        MockCheckInCard
+      </div>
+      <div>
+        MockCheckInCard
+      </div>
+      <div>
+        MockCheckInCard
+      </div>
+      <div>
+        MockCheckInCard
+      </div>
+      <div>
+        MockCheckInCard
+      </div>
+      <div>
+        MockCheckInCard
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

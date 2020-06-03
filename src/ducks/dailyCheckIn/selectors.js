@@ -1,1 +1,3 @@
-export const currentSelectionSelector = state => state.get('currentSelections')
+import { currentSelections } from './constants'
+
+export const currentSelectionSelector = state => state.get(currentSelections)

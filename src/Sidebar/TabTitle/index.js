@@ -17,9 +17,9 @@ const SelectLogo = ({ title }) => {
     return null
   }
 }
-const TabTitle = ({ title, isSelected }) => {
+const TabTitle = ({ title, isSelected, onClick }) => {
   return (
-    <TabTitleWrapper isSelected={isSelected}>
+    <TabTitleWrapper isSelected={isSelected} onClick={onClick}>
       <Logo>{SelectLogo({ title })}</Logo>
       <Title>{title}</Title>
       {isSelected ? <SelectedBar/> : null}
