@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import OptionsCard from '../CommonComponents/OptionsCard'
 import moodLogo from '../Logos/CardHeaderLogos/mood.svg'
 import waterLogo from '../Logos/CardHeaderLogos/water.svg'
@@ -7,6 +8,9 @@ import weightLogo from '../Logos/CardHeaderLogos/weight.svg'
 import moonLogo from '../Logos/CardHeaderLogos/moon.svg'
 import flowerLogo from '../Logos/CardHeaderLogos/flower.svg'
 
+import { connect } from 'react-redux'
+import { initSelections } from '../ducks/dailyCheckIn/actions'
+
 import {
   MOOD, WATER, NUTRITION, ACTIVITY, SLEEP, MEDITATE,
   moodOptions, waterOptions, nutritionOptions, activityOptions,
@@ -14,7 +18,8 @@ import {
 } from './constants'
 import { DailyCheckInWrapper } from './DailyCheckIn.styles'
 
-const DailyCheckIn = () => {
+export const UnconnectedDailyCheckIn = ({ initSelections }) => {
+  initSelections()
   return (
     <DailyCheckInWrapper>
       <OptionsCard title={MOOD} prompt={'How was your overall mood today?'}
@@ -32,5 +37,11 @@ const DailyCheckIn = () => {
     </DailyCheckInWrapper>
   )
 }
+UnconnectedDailyCheckIn.propTypes = {
+  initSelections: PropTypes.func.isRequired
+}
 
-export default DailyCheckIn
+UnconnectedDailyCheckIn.defaultProps = {
+  initSelections: () => {}
+}
+export default connect(null, { initSelections })(UnconnectedDailyCheckIn)

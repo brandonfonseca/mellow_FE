@@ -1,7 +1,11 @@
 import { takeEvery, put, select } from 'redux-saga/effects'
+import { baseAPIURL } from './constants'
 
-import { SET_CHOICE, DAILY_CHECK_IN_COMPLETED } from './actions'
-import { mapReduxToAPI, getDateToday } from './helpers'
+import {
+  SET_CHOICE, DAILY_CHECK_IN_COMPLETED, INIT_SELECTIONS,
+  UPDATE_SELECTIONS_STATE
+} from './actions'
+import { mapReduxToAPI, getDateToday, mapAPIToRedux } from './helpers'
 import { currentSelectionSelector } from './selectors'
 
 function * checkCompleteness () {
@@ -11,9 +15,17 @@ function * checkCompleteness () {
   }
 }
 
-function * updateCurrentSelections () {
+function * initSelections () {
+  const todaysDate = getDateToday()
+  const checkIns = yield fetch(`${baseAPIURL}/between_dates?start_date=${todaysDate}&end_date=${todaysDate}`)
+    .then(response => response.json())
+  const latestCheckIn = checkIns[checkIns.length - 1]
+  yield put({ type: UPDATE_SELECTIONS_STATE, payload: mapAPIToRedux(latestCheckIn) })
+}
+
+function * updateCurrentSelectionsOnServer () {
   const currentSelections = yield select(currentSelectionSelector)
-  const json = yield fetch('http://127.0.0.1:3001/check_ins?created_by=10',
+  yield fetch(baseAPIURL,
     {
       method: 'POST',
       headers: {
@@ -30,12 +42,12 @@ function * updateCurrentSelections () {
       })
     })
     .then(response => response.json())
-  console.log(json)
 }
 
 function * dailyCheckInSaga () {
   yield takeEvery(SET_CHOICE, checkCompleteness)
-  yield takeEvery(DAILY_CHECK_IN_COMPLETED, updateCurrentSelections)
+  yield takeEvery(DAILY_CHECK_IN_COMPLETED, updateCurrentSelectionsOnServer)
+  yield takeEvery(INIT_SELECTIONS, initSelections)
 }
 
 export default dailyCheckInSaga

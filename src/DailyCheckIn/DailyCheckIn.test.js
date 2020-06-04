@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import DailyCheckIn from '.'
+import { UnconnectedDailyCheckIn as DailyCheckIn } from '.'
 
 jest.mock('../CommonComponents/OptionsCard', () => () => <div>MockOptionsCard</div>)
 

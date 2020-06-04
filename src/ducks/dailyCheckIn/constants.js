@@ -1,3 +1,3 @@
 export const currentSelections = 'currentSelections'
 
-export const baseAPIURL = 'http://127.0.01/check_ins'
+export const baseAPIURL = 'http://127.0.01:3001/check_ins'
