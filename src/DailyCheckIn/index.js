@@ -1,8 +1,12 @@
 import React from 'react'
-import CheckInCard from '../CommonComponents/CheckInCard'
+import OptionsCard from '../CommonComponents/OptionsCard'
 import moodLogo from '../Logos/CardHeaderLogos/mood.svg'
 import waterLogo from '../Logos/CardHeaderLogos/water.svg'
 import appleLogo from '../Logos/CardHeaderLogos/apple.svg'
+import weightLogo from '../Logos/CardHeaderLogos/weight.svg'
+import moonLogo from '../Logos/CardHeaderLogos/moon.svg'
+import flowerLogo from '../Logos/CardHeaderLogos/flower.svg'
+
 
 import {
   MOOD, WATER, NUTRITION, ACTIVITY, SLEEP, MEDITATE,
@@ -14,18 +18,18 @@ import { DailyCheckInWrapper } from './DailyCheckIn.styles'
 const DailyCheckIn = () => {
   return (
     <DailyCheckInWrapper>
-      <CheckInCard title={MOOD} prompt={'How was your overall mood today?'}
+      <OptionsCard title={MOOD} prompt={'How was your overall mood today?'}
         logo={moodLogo} options={moodOptions}/>
-      <CheckInCard title={WATER} prompt={'How many cups of water did you drink today?'}
+      <OptionsCard title={WATER} prompt={'How many cups of water did you drink today?'}
         logo={waterLogo} options={waterOptions}/>
-      <CheckInCard title={NUTRITION} prompt={'How would you rate the nutritional value of your food today?'}
+      <OptionsCard title={NUTRITION} prompt={'How would you rate the nutritional value of your food today?'}
         logo={appleLogo} options={nutritionOptions}/>
-      <CheckInCard title={ACTIVITY} prompt={'How active were you today?'}
-        logo={appleLogo} options={activityOptions} extraSpacing={true}/>
-      <CheckInCard title={SLEEP} prompt={'How many hours of sleep did you get last night?'}
-        logo={appleLogo} options={sleepOptions}/>
-      <CheckInCard title={MEDITATE} prompt={'Did you meditate today?'}
-        logo={appleLogo} options={meditateOptions}/>
+      <OptionsCard title={ACTIVITY} prompt={'How active were you today?'}
+        logo={weightLogo} options={activityOptions} extraSpacing={true}/>
+      <OptionsCard title={SLEEP} prompt={'How many hours of sleep did you get last night?'}
+        logo={moonLogo} options={sleepOptions}/>
+      <OptionsCard title={MEDITATE} prompt={'Did you meditate today?'}
+        logo={flowerLogo} options={meditateOptions}/>
     </DailyCheckInWrapper>
   )
 }

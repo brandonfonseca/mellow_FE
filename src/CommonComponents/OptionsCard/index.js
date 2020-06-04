@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Card, Title, Prompt, Logo, OptionsWrapper } from './CheckInCard.styles'
+import { Card, Title, Prompt, Logo, OptionsWrapper } from './OptionsCard.styles'
 import OptionLogo from '../OptionLogo'
 import Immutable from 'immutable'
 import { connect } from 'react-redux'
 import { setOption } from '../../ducks/dailyCheckIn/actions'
 import { currentSelectionSelector } from '../../ducks/dailyCheckIn/selectors'
 
-export const UnconnectedCheckInCard = ({ title, prompt, logo, options, extraSpacing, setOption, currentSelections }) => {
+export const UnconnectedOptionsCard = ({ title, prompt, logo, options, extraSpacing, setOption, currentSelections }) => {
   return (
     <Card>
       <Title>{title.toUpperCase()}</Title>
@@ -28,7 +28,7 @@ const isSelected = (currentSelections, potentialSelection) => {
   return currentSelections.includes(potentialSelection)
 }
 
-UnconnectedCheckInCard.propTypes = {
+UnconnectedOptionsCard.propTypes = {
   title: PropTypes.string,
   prompt: PropTypes.string,
   logo: PropTypes.string,
@@ -38,7 +38,7 @@ UnconnectedCheckInCard.propTypes = {
   currentSelections: PropTypes.instanceOf(Immutable.Map)
 }
 
-UnconnectedCheckInCard.defaultProps = {
+UnconnectedOptionsCard.defaultProps = {
   title: '',
   prompt: '',
   extraSpacing: false,
@@ -49,4 +49,4 @@ UnconnectedCheckInCard.defaultProps = {
 const mapStateToProps = (state) => {
   return { currentSelections: currentSelectionSelector(state) }
 }
-export default connect(mapStateToProps, { setOption })(UnconnectedCheckInCard)
+export default connect(mapStateToProps, { setOption })(UnconnectedOptionsCard)

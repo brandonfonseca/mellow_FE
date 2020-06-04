@@ -1,55 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Daily Check-in tab renders the daily check-in items 1`] = `
+exports[`renders the base app 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxjAm kkZpKW"
+        class="sc-AxiKw iHmYWI"
       >
-        <div>
-          MockOptionsCard
-        </div>
-        <div>
-          MockOptionsCard
-        </div>
-        <div>
-          MockOptionsCard
-        </div>
-        <div>
-          MockOptionsCard
-        </div>
-        <div>
-          MockOptionsCard
-        </div>
-        <div>
-          MockOptionsCard
+        <img
+          class="sc-AxjAm bgQAkC"
+          src="hammer.svg"
+        />
+        <div
+          class="sc-AxirZ jLxlcA"
+        >
+          Under Construction. Please come back soon!
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-AxjAm kkZpKW"
+      class="sc-AxiKw iHmYWI"
     >
-      <div>
-        MockOptionsCard
-      </div>
-      <div>
-        MockOptionsCard
-      </div>
-      <div>
-        MockOptionsCard
-      </div>
-      <div>
-        MockOptionsCard
-      </div>
-      <div>
-        MockOptionsCard
-      </div>
-      <div>
-        MockOptionsCard
+      <img
+        class="sc-AxjAm bgQAkC"
+        src="hammer.svg"
+      />
+      <div
+        class="sc-AxirZ jLxlcA"
+      >
+        Under Construction. Please come back soon!
       </div>
     </div>
   </div>,

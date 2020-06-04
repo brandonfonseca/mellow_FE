@@ -4,13 +4,17 @@ import DailyCheckIn from './DailyCheckIn'
 import { connect } from 'react-redux'
 import { currentTabSelector } from './ducks/global/selectors'
 import PropTypes from 'prop-types'
-import { DAILY_CHECK_IN } from './Sidebar/constants'
+import { DAILY_CHECK_IN, DASHBOARD, MINDFULNESS_TOOLS } from './Sidebar/constants'
+import UnderConstruction from './CommonComponents/UnderConstruction'
 
 export const UnconnectedApp = ({ currentTab }) => {
   return (
     <>
       <Sidebar/>
       {currentTab === DAILY_CHECK_IN ? <DailyCheckIn/> : null}
+      {currentTab === DASHBOARD ? <UnderConstruction/> : null}
+      {currentTab === MINDFULNESS_TOOLS ? <UnderConstruction/> : null}
+
     </>
   )
 }
