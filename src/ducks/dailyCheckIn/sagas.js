@@ -40,7 +40,7 @@ function * updateCurrentSelectionsOnServer () {
     created_by: 10
   })
   if (currentSelections.get('id') !== -1) {
-    response = yield fetch(`${baseAPIURL}/${currentSelections.get('id')}`,
+    yield fetch(`${baseAPIURL}/${currentSelections.get('id')}`,
       {
         method: 'PUT',
         headers: {
@@ -48,8 +48,6 @@ function * updateCurrentSelectionsOnServer () {
         },
         body: body
       })
-      .then(response => response.json())
-    console.log(response)
   } else {
     response = yield fetch(baseAPIURL,
       {
@@ -60,9 +58,8 @@ function * updateCurrentSelectionsOnServer () {
         body: body
       })
       .then(response => response.json())
-    console.log(response)
+    yield put({ type: UPDATE_SELECTIONS_ID, payload: response.id })
   }
-  yield put({ type: UPDATE_SELECTIONS_ID, payload: response.id })
 }
 
 function * dailyCheckInSaga () {
