@@ -7,6 +7,6 @@ jest.mock('./Sidebar', () => () => <div>MockSidebar</div>)
 jest.mock('./DailyCheckIn', () => () => <div>MockDailyCheckIn</div>)
 
 it('renders the base app', () => {
-  const app = render(<App />)
+  const app = render(<App getDashboardData={() => {}} />)
   expect(app).toMatchSnapshot()
 })

@@ -7,8 +7,10 @@ import { currentTabSelector } from './ducks/global/selectors'
 import PropTypes from 'prop-types'
 import { DAILY_CHECK_IN, DASHBOARD, MINDFULNESS_TOOLS } from './Sidebar/constants'
 import UnderConstruction from './CommonComponents/UnderConstruction'
+import { getDashboardData } from './ducks/dashboard/actions'
 
-export const UnconnectedApp = ({ currentTab }) => {
+export const UnconnectedApp = ({ currentTab, getDashboardData }) => {
+  getDashboardData()
   return (
     <>
       <Sidebar/>
@@ -27,7 +29,8 @@ const mapStateToProps = state => {
 }
 
 UnconnectedApp.propTypes = {
-  currentTab: PropTypes.string
+  currentTab: PropTypes.string,
+  getDashboardData: PropTypes.func
 }
 
-export default connect(mapStateToProps, {})(UnconnectedApp)
+export default connect(mapStateToProps, { getDashboardData })(UnconnectedApp)

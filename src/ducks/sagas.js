@@ -1,12 +1,14 @@
 import { takeEvery, put, select } from 'redux-saga/effects'
-import { baseAPIURL } from './constants'
+import { baseAPIURL } from './dailyCheckIn/constants'
 
 import {
   SET_CHOICE, DAILY_CHECK_IN_COMPLETED, INIT_SELECTIONS,
   UPDATE_SELECTIONS_STATE, UPDATE_SELECTIONS_ID
-} from './actions'
-import { mapReduxToAPI, getDateToday, mapAPIToRedux, isEmpty } from './helpers'
-import { currentSelectionSelector } from './selectors'
+} from './dailyCheckIn/actions'
+import { GET_DASHBOARD_DATA, UPDATE_DASHBOARD_STATE } from './dashboard/actions'
+import { mapReduxToAPI, getDateToday, mapAPIToRedux, isEmpty } from './dailyCheckIn/helpers'
+import { currentSelectionSelector } from './dailyCheckIn/selectors'
+import { getDateAWeekAgo, createGraphDataFromCheckins } from './dashboard/helpers'
 
 function * checkCompleteness () {
   const currentSelections = yield select(currentSelectionSelector)
@@ -62,10 +64,22 @@ function * updateCurrentSelectionsOnServer () {
   }
 }
 
-function * dailyCheckInSaga () {
+function * getDashboardDataFromServer () {
+  const dateAWeekAgo = getDateAWeekAgo()
+  const todaysDate = getDateToday()
+  const checkIns = yield fetch(`${baseAPIURL}/between_dates?start_date=${dateAWeekAgo}&end_date=${todaysDate}?created_by=10`)
+    .then(response => response.json())
+  if (isEmpty(checkIns)) {
+    return
+  }
+  yield put({ type: UPDATE_DASHBOARD_STATE, payload: createGraphDataFromCheckins(checkIns) })
+}
+
+function * rootSaga () {
   yield takeEvery(SET_CHOICE, checkCompleteness)
   yield takeEvery(DAILY_CHECK_IN_COMPLETED, updateCurrentSelectionsOnServer)
   yield takeEvery(INIT_SELECTIONS, initSelections)
+  yield takeEvery(GET_DASHBOARD_DATA, getDashboardDataFromServer)
 }
 
-export default dailyCheckInSaga
+export default rootSaga
