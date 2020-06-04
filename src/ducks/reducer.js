@@ -1,4 +1,7 @@
-import { SET_CHOICE, DAILY_CHECK_IN_COMPLETED, UPDATE_SELECTIONS_STATE } from './dailyCheckIn/actions'
+import {
+  SET_CHOICE, DAILY_CHECK_IN_COMPLETED, UPDATE_SELECTIONS_STATE
+  , UPDATE_SELECTIONS_ID
+} from './dailyCheckIn/actions'
 import { SET_CURRENT_TAB } from './global/actions'
 import { currentSelections } from './dailyCheckIn/constants'
 import Immutable from 'immutable'
@@ -8,6 +11,7 @@ import { DAILY_CHECK_IN } from '../Sidebar/constants'
 const initialState = Immutable.fromJS({
   [currentTab]: DAILY_CHECK_IN,
   [currentSelections]: {
+    id: -1,
     mood: null,
     water: null,
     nutrition: null,
@@ -27,6 +31,8 @@ export default function reducer (state = initialState, action = {}) {
       return state.set(currentTab, action.payload)
     case UPDATE_SELECTIONS_STATE:
       return state.set(currentSelections, action.payload)
+    case UPDATE_SELECTIONS_ID:
+      return state.setIn([currentSelections, 'id'], action.payload)
     default:
       return state
   }

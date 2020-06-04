@@ -5,6 +5,7 @@ export const SET_CHOICE = ns`SET_CHOICE`
 export const DAILY_CHECK_IN_COMPLETED = ns`DAILY_CHECK_IN_COMPLETED`
 export const INIT_SELECTIONS = ns`INIT_SELECTIONS`
 export const UPDATE_SELECTIONS_STATE = ns`UPDATE_SELECTIONS_STATE`
+export const UPDATE_SELECTIONS_ID = ns`UPDATE_SELECTIONS_ID`
 
 export const setOption = choice => {
   return {
@@ -29,5 +30,11 @@ export const updateSelectionsState = selections => {
   return {
     type: UPDATE_SELECTIONS_STATE,
     payload: selections
+  }
+}
+export const updateSelections = id => {
+  return {
+    type: UPDATE_SELECTIONS_ID,
+    payload: id
   }
 }

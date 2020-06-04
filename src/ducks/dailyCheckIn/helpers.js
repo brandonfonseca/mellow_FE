@@ -15,14 +15,17 @@ export const getDateToday = () => {
 const combineStrWithInt = (str, num) => str.concat('', num.toString())
 
 export const mapAPIToRedux = (checkIn) => {
-  console.log(checkIn.mood)
   return Immutable.fromJS({
+    id: checkIn.id,
     mood: combineStrWithInt('mood', checkIn.mood),
     water: combineStrWithInt('water', checkIn.cups_of_water),
     nutrition: combineStrWithInt('nutrition', checkIn.nutrition_rating),
     activity: combineStrWithInt('activity', checkIn.activity_rating),
     sleep: combineStrWithInt('sleep', checkIn.sleep_hours),
     meditate: combineStrWithInt('meditate', checkIn.did_meditate ? 1 : 0)
-
   })
+}
+
+export const isEmpty = (obj) => {
+  return Object.keys(obj).length === 0
 }

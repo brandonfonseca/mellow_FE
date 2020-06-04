@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import {UnconnectedApp as App} from './App'
+import { UnconnectedApp as App } from './App'
 
 jest.mock('./CommonComponents/OptionsCard', () => () => <div>MockOptionsCard</div>)
 jest.mock('./Sidebar', () => () => <div>MockSidebar</div>)
