@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import DailyCheckIn from './DailyCheckIn'
+import Dashboard from './Dashboard'
 import { connect } from 'react-redux'
 import { currentTabSelector } from './ducks/global/selectors'
 import PropTypes from 'prop-types'
@@ -12,7 +13,7 @@ export const UnconnectedApp = ({ currentTab }) => {
     <>
       <Sidebar/>
       {currentTab === DAILY_CHECK_IN ? <DailyCheckIn/> : null}
-      {currentTab === DASHBOARD ? <UnderConstruction/> : null}
+      {currentTab === DASHBOARD ? <Dashboard/> : null}
       {currentTab === MINDFULNESS_TOOLS ? <UnderConstruction/> : null}
 
     </>
