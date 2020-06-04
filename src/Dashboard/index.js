@@ -10,10 +10,13 @@ const UnconnectedDashboard = ({ currentDashboardData }) => {
   console.log(currentDashboardData)
   return (
     <DashboardWrapper>
-      <BarChart/>
-      <BarChart/>
-      <BarChart/>
-      <BarChart/>
+      <BarChart title={'Mood over time'} data={currentDashboardData.mood}/>
+      <BarChart title={'Water intake over time'} data={currentDashboardData.water}/>
+      <BarChart title={'Nutrition rating over time'} data={currentDashboardData.nutrition}/>
+      <BarChart title={'Activity level over time'} data={currentDashboardData.activity}/>
+      <BarChart title={'Sleep duration over time'} data={currentDashboardData.sleep}/>
+      <BarChart title={'Meditated over time'} data={currentDashboardData.sleep}/>
+
     </DashboardWrapper>)
 }
 

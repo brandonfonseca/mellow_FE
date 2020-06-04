@@ -1,14 +1,8 @@
 import React from 'react'
 import { ChartWrapper, ChartTitle } from './Chart.styles'
+import PropTypes from 'prop-types'
 
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts'
-const data = [
-  { date: 'Day 1', value: 2400 },
-  { date: 'Day 2', value: 1398 },
-  { date: 'Day 3', value: 9800 },
-  { date: 'Day 4', value: 3908 },
-  { date: 'Day 5', value: 4800 }
-]
 const SimpleBarChart = ({ title, data }) => {
   return (
     <ChartWrapper>
@@ -22,6 +16,16 @@ const SimpleBarChart = ({ title, data }) => {
       </BarChart>
     </ChartWrapper>
   )
+}
+
+SimpleBarChart.propTypes = {
+  title: PropTypes.string.isRequired,
+  data: PropTypes.array.isRequired
+}
+
+SimpleBarChart.defaultProps = {
+  title: '',
+  data: []
 }
 
 export default SimpleBarChart

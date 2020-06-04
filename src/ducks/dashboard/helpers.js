@@ -6,20 +6,24 @@ export const getDateAWeekAgo = () => {
 
 export const createGraphDataFromCheckins = checkIns => {
   const dashboardState = {
-    mood: {},
-    activity: {},
-    sleep: {},
-    water: {},
-    nutrition: {},
-    meditate: {}
+    mood: [],
+    activity: [],
+    sleep: [],
+    water: [],
+    nutrition: [],
+    meditate: []
   }
   checkIns.forEach(checkIn => {
-    dashboardState.mood[checkIn.date_submitted] = checkIn.mood
-    dashboardState.activity[checkIn.date_submitted] = checkIn.activity_rating
-    dashboardState.sleep[checkIn.date_submitted] = checkIn.sleep_hours
-    dashboardState.water[checkIn.date_submitted] = checkIn.cups_of_water
-    dashboardState.nutrition[checkIn.date_submitted] = checkIn.nutrition_rating
-    dashboardState.meditate[checkIn.date_submitted] = checkIn.did_meditate
+    dashboardState.mood.push({ date: checkIn.date_submitted, value: checkIn.mood })
+    dashboardState.activity.push({ date: checkIn.date_submitted, value: checkIn.activity_rating })
+    dashboardState.sleep.push({ date: checkIn.date_submitted, value: checkIn.sleep_hours })
+    dashboardState.water.push({ date: checkIn.date_submitted, value: checkIn.cups_of_water })
+    dashboardState.nutrition.push({ date: checkIn.date_submitted, value: checkIn.nutrition_rating })
+    dashboardState.meditate.push({ date: checkIn.date_submitted, value: checkIn.did_meditate })
   })
+  for (const element in dashboardState) {
+    dashboardState[element].sort((a, b) => a.date > b.date ? 1 : -1)
+  }
+
   return dashboardState
 }
