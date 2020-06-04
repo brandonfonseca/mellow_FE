@@ -21,9 +21,6 @@ export default function reducer (state = initialState, action = {}) {
     case SET_CHOICE:
       return state.setIn([currentSelections, action.payload.type], action.payload.choice)
     case SET_CURRENT_TAB: {
-      console.log(currentTab)
-      console.log(action.payload.currentTab)
-      console.log(action.payload)
       return state.set(currentTab, action.payload)
     }
     default:

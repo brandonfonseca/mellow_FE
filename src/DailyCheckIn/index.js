@@ -7,7 +7,6 @@ import weightLogo from '../Logos/CardHeaderLogos/weight.svg'
 import moonLogo from '../Logos/CardHeaderLogos/moon.svg'
 import flowerLogo from '../Logos/CardHeaderLogos/flower.svg'
 
-
 import {
   MOOD, WATER, NUTRITION, ACTIVITY, SLEEP, MEDITATE,
   moodOptions, waterOptions, nutritionOptions, activityOptions,
