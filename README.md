@@ -11,6 +11,7 @@
 [Useful Scripts](#useful-scripts)
 
 [TO-DO](#TO-DO)
+
 <br/>
 ## Background
 
@@ -38,6 +39,10 @@ The following figure can be found in the root directory as `Architecture.jpg`
 
 - react
 - redux
+- Stateless functional components
+    - All components are functional rather than class based in this repository. Additionally, no component has any local state (instead they simply share the common redux state)
+    - Functional components are far cleaner than class components. This reduces the total number of lines of code and also makes debugging easier
+    - Functional components are also more performant than class components since the browser doesn't need to allocate memory for handling lifecycle events
 - styled-components
     - Makes styling in react very modular since it's on a component by component basis
     - Makes the code more readable
