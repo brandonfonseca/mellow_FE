@@ -7,7 +7,7 @@ export const INIT_SELECTIONS = ns`INIT_SELECTIONS`
 export const UPDATE_SELECTIONS_STATE = ns`UPDATE_SELECTIONS_STATE`
 export const UPDATE_SELECTIONS_ID = ns`UPDATE_SELECTIONS_ID`
 
-export const setOption = choice => {
+export const setChoice = choice => {
   return {
     type: SET_CHOICE,
     payload: choice
@@ -32,7 +32,7 @@ export const updateSelectionsState = selections => {
     payload: selections
   }
 }
-export const updateSelections = id => {
+export const updateSelectionsId = id => {
   return {
     type: UPDATE_SELECTIONS_ID,
     payload: id
