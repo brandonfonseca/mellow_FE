@@ -2,7 +2,7 @@ import React from 'react'
 import TabTitle from '.'
 import { render } from '@testing-library/react'
 import { mount } from 'enzyme'
-import { Title, SelectedBar } from './TabTitle.styles'
+import { Title, SelectedBar, TabTitleWrapper } from './TabTitle.styles'
 import { ReactComponent as CalendarLogo } from '../../Logos/SidebarLogos/calendarLogo.svg'
 import { ReactComponent as GraphLogo } from '../../Logos/SidebarLogos/graphLogo.svg'
 import { ReactComponent as LeafLogo } from '../../Logos/SidebarLogos/leafLogo.svg'
@@ -43,5 +43,13 @@ describe('TabTitle', () => {
   it('does not render the SelectedBar if isSelected is false', () => {
     const wrapper = mount(<TabTitle title={MINDFULNESS_TOOLS} isSelected={false}/>)
     expect(wrapper.find(SelectedBar).exists()).toBe(false)
+  })
+
+  it('calls the onClick function that is passed in props on click', () => {
+    const spy = jest.fn()
+    const wrapper = mount(<TabTitle title={MINDFULNESS_TOOLS} onClick={spy}/>)
+    expect(wrapper.find(TabTitleWrapper).exists()).toBe(true)
+    wrapper.find(TabTitleWrapper).simulate('click')
+    expect(spy).toHaveBeenCalledTimes(1)
   })
 })
