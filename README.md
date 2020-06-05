@@ -1,5 +1,14 @@
 # Mellow Front End
 
+[Background](#background)
+
+[Overarching App Architecture](#overarching-app-architecture)
+
+[Front End Architecture](#front-end-architecture)
+
+[Tech Stack and Justifications](#tech-stack-and-justifications)
+
+[Useful Scripts](#useful-scripts)
 ## Background
 
 Mental health is a topic that is close to my heart. Recently, I have been doing a lot of research around mindfulness and meditation, and how these simple practices can improve mood, reduce stress, and contribute to an improved sense of wellbeing. 
