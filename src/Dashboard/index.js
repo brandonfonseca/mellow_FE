@@ -6,8 +6,7 @@ import { currentDashboardDataSelector } from '../ducks/dashboard/selectors'
 import { DashboardWrapper } from './Dashboard.styles'
 import BarChart from '../CommonComponents/BarChart'
 
-const UnconnectedDashboard = ({ currentDashboardData }) => {
-  console.log(currentDashboardData)
+export const UnconnectedDashboard = ({ currentDashboardData }) => {
   return (
     <DashboardWrapper>
       <BarChart title={'Mood over time'} data={currentDashboardData.mood}/>
@@ -15,8 +14,7 @@ const UnconnectedDashboard = ({ currentDashboardData }) => {
       <BarChart title={'Nutrition rating over time'} data={currentDashboardData.nutrition}/>
       <BarChart title={'Activity level over time'} data={currentDashboardData.activity}/>
       <BarChart title={'Sleep duration over time'} data={currentDashboardData.sleep}/>
-      <BarChart title={'Meditated over time'} data={currentDashboardData.sleep}/>
-
+      <BarChart title={'Meditated over time'} data={currentDashboardData.meditate}/>
     </DashboardWrapper>)
 }
 

@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarChart renders the BarChart correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-AxjAm htWUzr"
+      >
+        <div
+          class="sc-AxirZ dWIGul"
+        >
+          mockTitle
+        </div>
+        <div
+          class="recharts-wrapper"
+          style="position: relative; cursor: default; width: 500px; height: 250px;"
+        >
+          <svg
+            class="recharts-surface"
+            height="250"
+            version="1.1"
+            viewBox="0 0 500 250"
+            width="500"
+          >
+            <defs>
+              <clippath
+                id="recharts2-clip"
+              >
+                <rect
+                  height="210"
+                  width="430"
+                  x="65"
+                  y="5"
+                />
+              </clippath>
+            </defs>
+            <g
+              class="recharts-cartesian-grid"
+            >
+              <g
+                class="recharts-cartesian-grid-horizontal"
+              >
+                <line
+                  fill="none"
+                  height="210"
+                  stroke="#ccc"
+                  stroke-dasharray="3 3"
+                  width="430"
+                  x="65"
+                  x1="65"
+                  x2="495"
+                  y="5"
+                  y1="5"
+                  y2="5"
+                />
+                <line
+                  fill="none"
+                  height="210"
+                  stroke="#ccc"
+                  stroke-dasharray="3 3"
+                  width="430"
+                  x="65"
+                  x1="65"
+                  x2="495"
+                  y="5"
+                  y1="215"
+                  y2="215"
+                />
+              </g>
+              <g
+                class="recharts-cartesian-grid-vertical"
+              >
+                <line
+                  fill="none"
+                  height="210"
+                  stroke="#ccc"
+                  stroke-dasharray="3 3"
+                  width="430"
+                  x="65"
+                  x1="65"
+                  x2="65"
+                  y="5"
+                  y1="5"
+                  y2="215"
+                />
+                <line
+                  fill="none"
+                  height="210"
+                  stroke="#ccc"
+                  stroke-dasharray="3 3"
+                  width="430"
+                  x="65"
+                  x1="495"
+                  x2="495"
+                  y="5"
+                  y1="5"
+                  y2="215"
+                />
+              </g>
+            </g>
+            <g
+              class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"
+            >
+              <line
+                class="recharts-cartesian-axis-line"
+                fill="none"
+                height="210"
+                stroke="#666"
+                width="60"
+                x="5"
+                x1="65"
+                x2="65"
+                y="5"
+                y1="5"
+                y2="215"
+              />
+              <g
+                class="recharts-cartesian-axis-ticks"
+              />
+            </g>
+          </svg>
+          <div
+            class="recharts-tooltip-wrapper"
+            style="transform: translate(undefinedpx, undefinedpx); pointer-events: none; visibility: hidden; position: absolute; top: 0px;"
+          >
+            <div
+              class="recharts-default-tooltip"
+              style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: 1px solid #ccc; white-space: nowrap;"
+            >
+              <p
+                class="recharts-tooltip-label"
+                style="margin: 0px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      id="recharts_measurement_span"
+      style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; white-space: pre;"
+    >
+      0
+    </span>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxjAm htWUzr"
+    >
+      <div
+        class="sc-AxirZ dWIGul"
+      >
+        mockTitle
+      </div>
+      <div
+        class="recharts-wrapper"
+        style="position: relative; cursor: default; width: 500px; height: 250px;"
+      >
+        <svg
+          class="recharts-surface"
+          height="250"
+          version="1.1"
+          viewBox="0 0 500 250"
+          width="500"
+        >
+          <defs>
+            <clippath
+              id="recharts2-clip"
+            >
+              <rect
+                height="210"
+                width="430"
+                x="65"
+                y="5"
+              />
+            </clippath>
+          </defs>
+          <g
+            class="recharts-cartesian-grid"
+          >
+            <g
+              class="recharts-cartesian-grid-horizontal"
+            >
+              <line
+                fill="none"
+                height="210"
+                stroke="#ccc"
+                stroke-dasharray="3 3"
+                width="430"
+                x="65"
+                x1="65"
+                x2="495"
+                y="5"
+                y1="5"
+                y2="5"
+              />
+              <line
+                fill="none"
+                height="210"
+                stroke="#ccc"
+                stroke-dasharray="3 3"
+                width="430"
+                x="65"
+                x1="65"
+                x2="495"
+                y="5"
+                y1="215"
+                y2="215"
+              />
+            </g>
+            <g
+              class="recharts-cartesian-grid-vertical"
+            >
+              <line
+                fill="none"
+                height="210"
+                stroke="#ccc"
+                stroke-dasharray="3 3"
+                width="430"
+                x="65"
+                x1="65"
+                x2="65"
+                y="5"
+                y1="5"
+                y2="215"
+              />
+              <line
+                fill="none"
+                height="210"
+                stroke="#ccc"
+                stroke-dasharray="3 3"
+                width="430"
+                x="65"
+                x1="495"
+                x2="495"
+                y="5"
+                y1="5"
+                y2="215"
+              />
+            </g>
+          </g>
+          <g
+            class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"
+          >
+            <line
+              class="recharts-cartesian-axis-line"
+              fill="none"
+              height="210"
+              stroke="#666"
+              width="60"
+              x="5"
+              x1="65"
+              x2="65"
+              y="5"
+              y1="5"
+              y2="215"
+            />
+            <g
+              class="recharts-cartesian-axis-ticks"
+            />
+          </g>
+        </svg>
+        <div
+          class="recharts-tooltip-wrapper"
+          style="transform: translate(undefinedpx, undefinedpx); pointer-events: none; visibility: hidden; position: absolute; top: 0px;"
+        >
+          <div
+            class="recharts-default-tooltip"
+            style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: 1px solid #ccc; white-space: nowrap;"
+          >
+            <p
+              class="recharts-tooltip-label"
+              style="margin: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

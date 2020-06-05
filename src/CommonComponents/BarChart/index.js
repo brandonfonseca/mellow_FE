@@ -10,7 +10,7 @@ const SimpleBarChart = ({ title, data }) => {
       <BarChart width={500} height={250} data={data}>
         <CartesianGrid strokeDasharray="3 3"/>
         <XAxis dataKey="date"/>
-        <YAxis/>
+        <YAxis />
         <Tooltip/>
         <Bar dataKey="value" fill="#5b4ed0" />
       </BarChart>

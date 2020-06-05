@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { DAILY_CHECK_IN } from './constants'
 
 export const StyledBar = styled.div`
     width: 196px;
-    height: 1611px;
+    height: ${({ currentTab }) => currentTab === DAILY_CHECK_IN ? '1611px' : '1000px'};
     background-color: #ffffff;
     float: left;
 `

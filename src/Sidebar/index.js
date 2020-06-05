@@ -9,7 +9,7 @@ import PropTypes from 'prop-types'
 
 export const UnconnectedSidebar = ({ setCurrentTab, currentTab }) => {
   return (
-    <StyledBar>
+    <StyledBar currentTab={currentTab}>
       <TitleText>mellow</TitleText>
       <TabTitle title={DAILY_CHECK_IN} isSelected={DAILY_CHECK_IN === currentTab ||
         currentTab === '' } onClick={() => setCurrentTab(DAILY_CHECK_IN)}/>

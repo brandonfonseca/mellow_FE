@@ -19,7 +19,7 @@ export const createGraphDataFromCheckins = checkIns => {
     dashboardState.sleep.push({ date: checkIn.date_submitted, value: checkIn.sleep_hours })
     dashboardState.water.push({ date: checkIn.date_submitted, value: checkIn.cups_of_water })
     dashboardState.nutrition.push({ date: checkIn.date_submitted, value: checkIn.nutrition_rating })
-    dashboardState.meditate.push({ date: checkIn.date_submitted, value: checkIn.did_meditate })
+    dashboardState.meditate.push({ date: checkIn.date_submitted, value: checkIn.did_meditate ? 1 : 0 })
   })
   for (const element in dashboardState) {
     dashboardState[element].sort((a, b) => a.date > b.date ? 1 : -1)

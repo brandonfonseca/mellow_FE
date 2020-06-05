@@ -13,7 +13,7 @@ export const UnconnectedApp = ({ currentTab, getDashboardData }) => {
   getDashboardData()
   return (
     <>
-      <Sidebar/>
+      <Sidebar currentTab={currentTab}/>
       {currentTab === DAILY_CHECK_IN ? <DailyCheckIn/> : null}
       {currentTab === DASHBOARD ? <Dashboard/> : null}
       {currentTab === MINDFULNESS_TOOLS ? <UnderConstruction/> : null}
