@@ -26,7 +26,10 @@ Both are available on my GitHub. You are currently viewing the front end reposit
 
 
 ## Front End Architecture
-![alt text](https://github.com/brandonfonseca/mellow_FE/blob/master/Architecture.jpg?raw=true)
+The following figure can be found in the root directory as `Architecture.jpg`
+<br/>
+<br/>
+![architecture.jpg](https://github.com/brandonfonseca/mellow_FE/blob/master/Architecture.jpg?raw=true)
 
 ## Tech Stack and Justifications
 
