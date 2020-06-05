@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import OptionsCard from '../CommonComponents/OptionsCard'
+import OptionsCard from './OptionsCard'
 import moodLogo from '../Logos/CardHeaderLogos/mood.svg'
 import waterLogo from '../Logos/CardHeaderLogos/water.svg'
 import appleLogo from '../Logos/CardHeaderLogos/apple.svg'

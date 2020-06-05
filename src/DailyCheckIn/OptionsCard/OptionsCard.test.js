@@ -5,7 +5,7 @@ import { render } from '@testing-library/react'
 import { mount, shallow } from 'enzyme'
 import appleLogo from '../../Logos/CardHeaderLogos/apple.svg'
 import { Title, Prompt, Logo } from './OptionsCard.styles'
-import OptionLogo from '../OptionLogo'
+import OptionLogo from './OptionLogo'
 
 describe('OptionsCard', () => {
   it('renders the check in card correctly', () => {

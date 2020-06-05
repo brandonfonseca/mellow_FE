@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Card, Title, Prompt, Logo, OptionsWrapper } from './OptionsCard.styles'
-import OptionLogo from '../OptionLogo'
+import OptionLogo from './OptionLogo'
 import Immutable from 'immutable'
 import { connect } from 'react-redux'
 import { setChoice } from '../../ducks/dailyCheckIn/actions'

@@ -2,7 +2,7 @@ import React from 'react'
 import OptionLogo from '.'
 import { render } from '@testing-library/react'
 import { shallow } from 'enzyme'
-import { thumbUp } from '../../Logos'
+import { thumbUp } from '../../../Logos'
 import { OptionLogoWrapper, OptionText, SelectedWrapper } from './OptionLogo.styles'
 
 describe('OptionLogo', () => {

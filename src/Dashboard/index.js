@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { currentDashboardDataSelector } from '../ducks/dashboard/selectors'
 
 import { DashboardWrapper } from './Dashboard.styles'
-import BarChart from '../CommonComponents/BarChart'
+import BarChart from './BarChart'
 
 export const UnconnectedDashboard = ({ currentDashboardData }) => {
   return (
