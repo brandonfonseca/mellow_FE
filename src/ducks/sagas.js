@@ -25,8 +25,8 @@ function * initSelections () {
     return
   }
   const latestCheckIn = checkIns[checkIns.length - 1]
-  console.log(latestCheckIn)
   yield put({ type: UPDATE_SELECTIONS_STATE, payload: mapAPIToRedux(latestCheckIn) })
+  yield put({ type: DAILY_CHECK_IN_COMPLETED })
 }
 
 function * updateCurrentSelectionsOnServer () {

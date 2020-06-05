@@ -1,6 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mellow Front End
 
-## Available Scripts
+## Background
+
+Mental health is a topic that is close to my heart. Recently, I have been doing a lot of research around mindfulness and meditation, and how these simple practices can improve mood, reduce stress, and contribute to an improved sense of wellbeing. 
+
+Throughout my journey thus far I have used several applications for guided meditation and mindfulness. While mindfulness applications (such as Headspace) are amazing for guided meditations, they often lack features around tracking wellness, mood, and past meditations. Therefore, I set out to build an application that not only provides tools during meditation, but also helps track the quality of your meditations over time. Additionally, the app aims to track how other physical factors, such as water intake and daily exercise, contribute to your daily mood over time.
+
+## Overarching App Architecture
+
+- App is split into two discrete services: the **server-side** (back end) and **client-side** (front end). 
+
+- Back end built using **Ruby on Rails** (version 5.2.4.3)
+- Front end built using **React + Redux**
+
+Both are available on my GitHub. You are currently viewing the front end repository
+
+
+## Front End Architecture
+Please see Architecture.jpeg in the root directory of this repository to see a visual representation of the architecture
+
+## Tech Stack and Justifications
+
+- react
+- redux
+- styled-components
+    - Makes styling in react very modular since it's on a component by component basis
+    - Makes the code more readable
+    - Allows incredible inline styling
+    - Styles are scoped inherently
+    - Don't have to worry about classNames, instead you pass in props
+    - Sass support
+    - React Native support
+- ImmutableJS
+    - Used for the redux store
+    - Ensures all objects passed through the store are immutable. This is crucial since objects in redux are not allowed to be mutated
+    - Has some handy helper functions
+- redux-saga
+    - Middleware that allows side effects to be run after an action is dispatched
+    - Great for async behavior and easily querying the back end API
+- Jest and Enzyme
+    - Libraries used for testing
+    - Jest is packaged natively in create-react-app
+    - Jest has very readable syntax and native support for snapshot testing
+    - Enzyme makes it easier to unittest components in react
+- Husky
+    - Allows local hooks to be run before before commiting or pushing to git. In this case, Husky is used to run the test suite and lint the code before allowing the developer to commit 
+- ESLint
+    - Used for keeping the code consistent across the repository and ensuring best practices are followed
+
+
+
+## Useful Scripts
 
 In the project directory, you can run:
 
@@ -15,54 +65,14 @@ You will also see any lint errors in the console.
 ### `yarn (or npm) test`
 
 Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn (or npm) build`
+### `yarn (or npm) lint:fix`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Runs the linter against all .js files and automatically corrects eligible errors.<br />
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
