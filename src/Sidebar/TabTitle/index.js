@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { TabTitleWrapper, Logo, SelectedBar, Title } from './TabTitle.styles'
 import { DAILY_CHECK_IN, DASHBOARD, MINDFULNESS_TOOLS } from '../constants'
-import { ReactComponent as CalendarLogo } from '../../Logos/SidebarLogos/calendarLogo.svg'
-import { ReactComponent as GraphLogo } from '../../Logos/SidebarLogos/graphLogo.svg'
-import { ReactComponent as LeafLogo } from '../../Logos/SidebarLogos/leafLogo.svg'
+import { ReactComponent as CalendarLogo } from '../../logos/SidebarLogos/calendarLogo.svg'
+import { ReactComponent as GraphLogo } from '../../logos/SidebarLogos/graphLogo.svg'
+import { ReactComponent as LeafLogo } from '../../logos/SidebarLogos/leafLogo.svg'
 
 const SelectLogo = ({ title }) => {
   if (title === DAILY_CHECK_IN) {

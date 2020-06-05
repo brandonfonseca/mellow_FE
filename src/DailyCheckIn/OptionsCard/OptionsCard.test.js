@@ -3,7 +3,7 @@ import Immutable from 'immutable'
 import { UnconnectedOptionsCard as OptionsCard } from '.'
 import { render } from '@testing-library/react'
 import { mount, shallow } from 'enzyme'
-import appleLogo from '../../Logos/CardHeaderLogos/apple.svg'
+import appleLogo from '../../logos/CardHeaderLogos/apple.svg'
 import { Title, Prompt, Logo } from './OptionsCard.styles'
 import OptionLogo from './OptionLogo'
 

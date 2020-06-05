@@ -1,5 +1,5 @@
 import React from 'react'
-import HammerLogo from '../../Logos/CommonLogos/hammer.svg'
+import HammerLogo from '../../logos/CommonLogos/hammer.svg'
 import { Logo, UnderConstructionWrapper, Prompt } from './UnderConstruction.styles'
 
 const UnderCostruction = () => {

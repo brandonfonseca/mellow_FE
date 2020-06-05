@@ -6,7 +6,7 @@ import {
   activityLow, activityMedium, activityHigh,
   sleepZero, sleepOne, sleepTwo, sleepThree, sleepFour, sleepFive, sleepSix, sleepSeven, sleepEight,
   thumbDown, thumbUp
-} from '../Logos'
+} from '../logos'
 
 export const MOOD = 'mood'
 export const WATER = 'water'

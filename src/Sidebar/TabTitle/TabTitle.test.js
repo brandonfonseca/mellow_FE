@@ -3,9 +3,9 @@ import TabTitle from '.'
 import { render } from '@testing-library/react'
 import { mount } from 'enzyme'
 import { Title, SelectedBar, TabTitleWrapper } from './TabTitle.styles'
-import { ReactComponent as CalendarLogo } from '../../Logos/SidebarLogos/calendarLogo.svg'
-import { ReactComponent as GraphLogo } from '../../Logos/SidebarLogos/graphLogo.svg'
-import { ReactComponent as LeafLogo } from '../../Logos/SidebarLogos/leafLogo.svg'
+import { ReactComponent as CalendarLogo } from '../../logos/SidebarLogos/calendarLogo.svg'
+import { ReactComponent as GraphLogo } from '../../logos/SidebarLogos/graphLogo.svg'
+import { ReactComponent as LeafLogo } from '../../logos/SidebarLogos/leafLogo.svg'
 import { DAILY_CHECK_IN, DASHBOARD, MINDFULNESS_TOOLS } from '../constants'
 
 describe('TabTitle', () => {
