@@ -9,6 +9,9 @@
 [Tech Stack and Justifications](#tech-stack-and-justifications)
 
 [Useful Scripts](#useful-scripts)
+
+[TO-DO](#TO-DO)
+<br/>
 ## Background
 
 Mental health is a topic that is close to my heart. Recently, I have been doing a lot of research around mindfulness and meditation, and how these simple practices can improve mood, reduce stress, and contribute to an improved sense of wellbeing. 
@@ -81,6 +84,15 @@ Launches the test runner in the interactive watch mode.<br />
 ### `yarn (or npm) lint:fix`
 
 Runs the linter against all .js files and automatically corrects eligible errors.<br />
+
+## TO DO
+
+- Finish the mindfulness tab
+- Reach 100% test coverage (pretty close right now, but I still have a bit of work to do around explictly testing the sagas)
+- Clean up the snapshot tests (they are too large right now)
+- Add users and JWT authentication
+- Add date range to dashboard tab
+- And much more... :)
 
 
 
