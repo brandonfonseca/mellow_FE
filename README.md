@@ -12,7 +12,6 @@
 
 [TO-DO](#TO-DO)
 
-<br/>
 ## Background
 
 Mental health is a topic that is close to my heart. Recently, I have been doing a lot of research around mindfulness and meditation, and how these simple practices can improve mood, reduce stress, and contribute to an improved sense of wellbeing. 
