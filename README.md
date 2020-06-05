@@ -26,7 +26,7 @@ Both are available on my GitHub. You are currently viewing the front end reposit
 
 
 ## Front End Architecture
-Please see Architecture.jpeg in the root directory of this repository to see a visual representation of the architecture
+Please see Architecture.jpeg in the root directory of this repository for a visual representation of the architecture
 
 ## Tech Stack and Justifications
 
