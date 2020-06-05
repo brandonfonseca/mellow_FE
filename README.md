@@ -26,7 +26,7 @@ Both are available on my GitHub. You are currently viewing the front end reposit
 
 
 ## Front End Architecture
-Please see Architecture.jpeg in the root directory of this repository for a visual representation of the architecture
+![alt text](https://github.com/brandonfonseca/mellow_FE/blob/master/Architecture.jpg?raw=true)
 
 ## Tech Stack and Justifications
 
